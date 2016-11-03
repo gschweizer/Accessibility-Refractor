@@ -1,0 +1,94 @@
+/* Survey page styles */
+
+header {
+  text-align: center;
+  background: url('../img/concert02_no_text.jpg') no-repeat top center ;
+  background-size: cover;
+  overflow: hidden;
+  padding-top: 60px;
+  height: 350px;
+}
+
+fieldset {
+  border: none;
+}
+
+.photo{
+  width: 60%;
+  padding: 10px;
+}
+
+form {
+  margin: 0 auto;
+  text-align: left;
+  display: inline-block;
+}
+
+.container{
+  text-align: center;
+  margin: 0 auto;
+}
+
+.survey {
+  padding-left: 55px;
+}
+
+#albums {
+  font-size: 1em;
+  margin-bottom: 20px;
+}
+
+#albums:hover {
+  cursor: pointer;
+}
+
+.fav-member{
+  padding-top: 10px;
+}
+
+.fav-album {
+  padding-top: 20px;
+}
+
+.fav-album,
+.fav-member {
+  padding-bottom: 10px;
+}
+
+#favorite_song {
+  margin-top: 5px;
+  height: 70px;
+  width: 350px;
+  font-size: 1em;
+}
+
+.newsletter{
+  text-align: right;
+  padding-top: 20px;
+}
+
+.newsletter input {
+  margin-bottom: 15px;
+  height: 30px;
+  width: 250px;
+  font-size: 1em;
+}
+
+#favorite_song:focus,
+.newsletter input:focus {
+  background-color: #ddd;
+  outline: 2px solid #e9be1e;
+}
+
+#descriptionSubmit,
+#descriptionDropdown
+#descriptionTextarea {
+  display: none;
+}
+
+/* Styles for larger screens */
+@media screen and (min-width: 840px) {
+  .photo{
+    width: 40%;
+  }
+}

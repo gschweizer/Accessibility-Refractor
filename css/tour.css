@@ -1,0 +1,48 @@
+/* Tour page styles */
+
+header {
+  text-align: center;
+  background: url('../img/concert02_no_text.jpg') no-repeat top center ;
+  background-size: cover;
+  overflow: hidden;
+  padding-top: 60px;
+  height: 350px;
+}
+
+.pick {
+  width: 40px;
+  height: 0%;
+  padding: 8px;
+  margin: 0 20px;
+  background-color: #ddd;
+  border-radius: 20px;
+  vertical-align: bottom;
+  }
+
+.tour {
+  margin: 0 auto;
+}
+
+caption {
+  color: #ddd;
+  text-transform: uppercase;
+  font-size: 2.25em;
+  font-weight: 600;
+  padding-top: 20px;
+  padding-bottom: 40px;
+}
+
+.tour th {
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 1.25em;
+}
+
+.tour td {
+  font-size: 1.1em;
+}
+
+.dateinfo,
+.venueinfo {
+  padding-right: 60px;
+}
